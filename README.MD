@@ -1,7 +1,7 @@
 Clone Project
 
-    git clone --recurse git@github.com:castroneto/controlcoin.git
-    cd controlcoin
+    git clone --recurse git@github.com:ErickPerote/simple-CRM.git
+    cd simple-CRM
     
 Start containers 
 
