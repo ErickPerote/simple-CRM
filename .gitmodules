@@ -1,0 +1,6 @@
+[submodule "Simple-CRM-FRONT"]
+	path = Simple-CRM-FRONT
+	url = https://github.com/ErickPerote/Simple-CRM-FRONT.git
+[submodule "SimpleCRM-API"]
+	path = SimpleCRM-API
+	url = https://github.com/ErickPerote/SimpleCRM-API.git
