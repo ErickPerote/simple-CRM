@@ -13,7 +13,7 @@ services:
     ports:
       - "1433:1433"
     networks:
-      - api-compose-network
+      - crm-compose-network
     volumes:
       - ./SimpleCRM-API/mssql:/mssql
 
@@ -28,7 +28,7 @@ services:
       - sqlserver
     command: /opt/mssql-tools/bin/sqlcmd -S $HOST -U $USERNAME -P $PASSWORD -Q "RESTORE DATABASE ${DATABASE}  FROM  DISK='/mssql/db.bkp'"
     networks:
-      - api-compose-network
+      - crm-compose-network
 
   front: 
     build: ./Simple-CRM-FRONT
